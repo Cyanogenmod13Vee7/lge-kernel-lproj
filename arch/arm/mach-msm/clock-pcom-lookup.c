@@ -352,6 +352,7 @@ static struct clk_lookup msm_cmn_clk_7625a_7627a[] __initdata = {
 #else
 	CLK_LOOKUP("cam_clk",		cam_m_clk.c,	"0-006e"), /* GSBI0, Slave Addr: 0x6E, t8ev4 */
 	CLK_LOOKUP("cam_clk",		cam_m_clk.c,	"0-0034"), /* GSBI0, Slave Addr: 0x34, imx111 */
+	CLK_LOOKUP("cam_clk",		cam_m_clk.c,	"0-001a"), /* GSBI0, Slave Addr: 0x34>>1, imx219 */
 	CLK_LOOKUP("cam_clk",		cam_m_clk.c,	"0-0060"), /* GSBI0, Slave Addr: 0x60, hi707 */
 #endif
 #if	defined(CONFIG_MT9E013_LGIT) // for u0_tcl_mx
